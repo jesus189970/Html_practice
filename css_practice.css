@@ -1,4 +1,35 @@
+
+
+* {
+    color: orange;
+}
+
 h1 {
     color: blue;
-    background-color: papayawhip;
+    background-color: #cc55ee;
+    letter-spacing: 200px;
+}
+
+p {
+    text-align: center;
+    text-decoration: underline blue ;
+    line-height: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+
+h1, h3 {
+font-size:100px;
+}
+
+#id {
+    color: red;
+}
+
+.class {
+    text-align: right;
 }
