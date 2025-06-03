@@ -33,3 +33,36 @@ font-size:100px;
 .class {
     text-align: right;
 }
+
+
+/* this below is an example of whatever p follows a h1 will be green*/
+h1 + p {
+    color: green
+}
+
+/*this below is an example of picking the direct descendant in an element*/
+
+nav > ul {
+    color: violet;
+}
+
+/*this is an example of attribute selector*/
+
+input[type-password] {
+    color: greenyellow;
+}
+
+/* this is an example of psuedo classes*/
+a:hover {
+    color: black;
+}
+
+
+/*e xample of psuedo elements*/
+h1::first-letter{
+    font-size: 50px;
+}
+
+p::selection {
+    background-color: green;
+}
