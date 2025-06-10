@@ -8,6 +8,11 @@ h1 {
     color: blue;
     background-color: #cc55ee;
     letter-spacing: 200px;
+    border: solid black 10px;
+    border-left-style: groove;
+    border-top-style: dotted;
+    border-radius: 50%;
+    padding: 50px;
 }
 
 p {
@@ -66,3 +71,7 @@ h1::first-letter{
 p::selection {
     background-color: green;
 }
+
+/* border notes*/
+/* box-sizing: border-box; this makes the width all together with the bn=order in mind.
+you can inset border. more then one styles on one border. 
