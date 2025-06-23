@@ -103,3 +103,24 @@ article {
 #em_practice {
     font-size: 0.5em; 
 }
+
+
+/*css transitions*/
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background-color: magenta;
+    transition: all 1s 1s;
+    
+}
+
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+    margin-left: 200px;
+}
+
+
+
+/*CSS tranforms*/
