@@ -124,3 +124,19 @@ article {
 
 
 /*CSS tranforms*/
+
+
+#background1 {
+    width: 80%;
+    height: 800px;
+    /* background-image: url(Batman.png);
+    background-size: cover;
+    background-position: top; */
+    background: url(Batman.png) center/40% no-repeat, blueviolet;
+    margin: auto;
+}
+
+h6 {
+    font-size: 100px;
+    color: white;
+}
